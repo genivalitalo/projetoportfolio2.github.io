@@ -1,0 +1,61 @@
+.sobrenos {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    color: #ffffff;
+}
+
+
+.conteudo-sobrenos-geral {
+    width: 1200px;
+    background-color: #595959;
+    padding: 20px 0px 100px;
+    border-radius: 10px;
+
+}
+
+.sobrenos-int {
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+
+}
+
+.sobrenos-int p {
+    max-width: 61ch;
+}
+
+.sobrenos-int h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.icones-sobrenos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.icones {
+    display: grid;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: #d9d9d9;
+    width: 210px;
+    height: 173px;
+    padding: 0;
+    border-radius: 10px;
+ 
+}
+
+.icones img {
+    align-self: center;
+    justify-self: center;
+    top:25px;
+    padding: 0;
+}
+
+.icones h3 {
+    font-size: 1.5rem;
+    padding: 0;
+}

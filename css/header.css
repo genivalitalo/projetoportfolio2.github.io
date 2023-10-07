@@ -1,0 +1,43 @@
+.header {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto; /*Para alinhar o conteudo quando ele for crescendo de maneira automatica*/
+    display: flex;
+    justify-content: space-between; /*Para Alinhas dando o espaçamento por igual o conteúdo */
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.menu-item {
+    display: flex;
+    flex-wrap: wrap; /*Caso diminua mais que o tamanho dele ele comece a quebra a linha*/
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.header a {
+    font-size: 1.125rem;
+    line-height: 1.3;
+    padding: 10px 20px;
+    display: block;
+}
+
+@media (max-width: 720px) {
+    .header {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+        
+    }
+    
+    .item-m {
+        background-color: #ba00f2;
+        border-radius: 10px;
+    }
+}
+

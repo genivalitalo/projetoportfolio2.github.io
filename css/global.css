@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@500&family=Lato&family=League+Spartan&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+}
+
+@keyframes animacao {
+    from {background-color:#350046,};
+    to   {background-color:#111111};
+}
+body {
+    font-family: 'Fira Sans', Arial, sans-serif;
+    background: linear-gradient( 180deg, #350046, #111111);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
